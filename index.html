@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Login Page</title>
+</head>
+<body>
+    <div class="main-div">
+        <div class="form-box">
+            <div class="button">
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn white" id="login-btn" >Log In</button>
+                <button type="button" class="toggle-btn black" id="signup-btn">Sign Up</button>
+            </div>
+            <form class="input-group" id="login">
+                <input type="text" class="input-field" placeholder="Enter Username" required>
+                <input type="password" class="input-field" placeholder="Enter Password" required>
+                <input type="checkbox" class="check-box"  required><span>Remeber me</span>
+                <button type="submit" class="submit-btn" id="submit-color"><a href="home.html">Log In</a></button><br>
+                <p>or</p>
+            </form>
+            <form class="input-group" id="signup">
+                <input type="text" class="input-field" placeholder="Enter your E-mail id" required>
+                <input type="password" class="input-field" placeholder="Enter your Password" required>
+                <input type="password" class="input-field" placeholder="Re-Enter your Password" required>
+                <input type="checkbox" class="check-box"  required><span>I agree to the terms and conditions</span>
+                <button type="submit" class="submit-btn">Sign Up</button><br>
+                <p>or</p>
+            </form>
+            <div class="social-icons">
+                <img src="google.png" alt="facebook"><p>Continue with google</p> 
+            </div>
+        </div>
+        
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
